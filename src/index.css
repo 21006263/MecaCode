@@ -1,0 +1,36 @@
+.Home{
+    /* display: flex;
+    min-height: 600px;
+    margin-top: 5px;
+    background-color: brown;
+ */
+
+
+  
+
+
+
+
+
+
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+.Home{
+    background-color: blue;
+    background-image: var(--hero-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: var(--hero-attachment);
+
+}
+
+
+

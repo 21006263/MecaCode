@@ -1,16 +1,18 @@
 import React from 'react'
-
+import Contacto from './components/LayaoutContainer/Contact/Contacto'
+import "./index.css"
 
 
 function Home() {
   return (
   
-    <div className="Home" >
-   <h1>Hola</h1>
-   <h2></h2>
+     <div>
+      <Contacto/>
+      <div className="Home">
+        <h6>Componentes 1</h6>
+      </div>
     </div>
-    
-    
+  
       
   )
 }

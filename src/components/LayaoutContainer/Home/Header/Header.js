@@ -1,13 +1,13 @@
 import React, {  } from "react";
 // import { Link } from 'react-router-dom'
 import { Navbar, Container,Nav,Form,Button,FormControl} from 'react-bootstrap'
-import '../../App'
+
 
 const Header = () => {
   return (
  
 
-    <Navbar bg="dark"  expand="lg"  variant="dark" fluid >
+    <Navbar bg="dark"  expand="lg"  variant="dark" fixed="top">
     <Container fluid>
       <Navbar.Brand href="#">MecaCode</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
